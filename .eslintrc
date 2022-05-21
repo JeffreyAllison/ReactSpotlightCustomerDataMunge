@@ -19,18 +19,18 @@
     "no-console": "warn",
     "indent": [
       "error",
-      4,
+      2,
       {
         "SwitchCase": 1,
         "ignoreComments": true
       }
     ],
     "quotes": [
-      "error", 
+      "error",
       "single",
-      { 
+      {
         "avoidEscape": true,
-        "allowTemplateLiterals": true 
+        "allowTemplateLiterals": true
       }
     ],
     "no-multi-spaces": [
@@ -80,6 +80,9 @@
       }
     ],
     "array-bracket-spacing": "error",
-    "no-unused-vars": ["error", { "args": "none", "varsIgnorePattern": "skip|test"}]
+    "no-unused-vars": [
+      "error",
+      { "args": "none", "varsIgnorePattern": "skip|test" }
+    ]
   }
 }
