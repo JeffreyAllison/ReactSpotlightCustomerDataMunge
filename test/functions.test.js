@@ -101,7 +101,7 @@ skip("getAllCoolFactorsOfEachCar", (expect) => {
 
   expect.deepEqual(actual, expected);
 });
-////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////
 skip("getAverageCoolFactorOfEachCar", (expect) => {
   const expected = true;
 
